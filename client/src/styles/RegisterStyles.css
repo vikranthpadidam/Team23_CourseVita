@@ -1,0 +1,58 @@
+.back1 {
+  background: linear-gradient(45deg ,grey, rgb(51,1,1));
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite;
+  height: 100vh;
+  -webkit-animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Your existing styles here */
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cbit-logo {
+  max-width: 200px;
+  max-height: 100px;
+}
+.mar{
+  margin-bottom: 20px;
+  padding:20px;
+}
+.b{
+  background-color: rgb(51,1,1);
+  border-width:0px ;
+  
+}
+.form-content {
+  width:30%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

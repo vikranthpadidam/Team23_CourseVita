@@ -1,0 +1,26 @@
+.ins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    /* Align text to the left within the centered container */
+    max-width: 800px;
+    /* Set a maximum width for better readability */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 20px;
+    /* Add some padding for better spacing */
+}
+
+.ins h2,
+.ins h3 {
+    margin-top: 20px;
+    /* Add margin to headings for spacing */
+}
+
+.ins p,
+.ins li {
+    margin-bottom: 10px;
+    /* Add margin to paragraphs and list items for spacing */
+}

@@ -1,0 +1,94 @@
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form h6 {
+    text-align: center;
+}
+
+form h1,
+h2,
+h3,
+h5 {
+    color: #333;
+
+}
+
+form h1,
+h5 {
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+form input[type="text"],
+input[type="date"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 230px;
+    font-size: 1.2rem;
+    width: 250px;
+    font-weight: 500;
+    margin: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+label {
+    font-weight: 530;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+p{
+    color: red;
+
+}
+
+h3{
+    margin: 30px 0px;
+}
